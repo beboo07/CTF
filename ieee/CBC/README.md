@@ -14,4 +14,5 @@ and we get two keys that will generate the 1st ct with this known bytes
 i took the first key and worked with the 1st block 
 know to get iv =pt ^ D(ct1) 
 and we got ct1 and key from the first step so now we can get iv and it worked 
+
 ![image](https://github.com/beboo07/CTF/blob/main/ieee/CBC/flag.png?raw=true)
