@@ -8,8 +8,8 @@ so first we need to make the ciphertext we have into two parts and we have the s
 we have some bytes from the first ciphertext that is used to xor the plaintext before encrypted so if we just decrypt the 2nd block with the right key making the iv =b'\0'*16 so when xor with pt it will not alterd it and xored it with 2nd block in plaintext we should get the same starts and end bytes in the 1st block 
 by this we will brute force the 4 bytes and check for the equation using string.printable
 and we get two keys that will generate the 1st ct with this known bytes 
-![Alt text][https://github.com/beboo07/CTF/blob/main/ieee/CBC/image.png?raw=true]
+![image][https://github.com/beboo07/CTF/blob/main/ieee/CBC/image.png?raw=true]
 i took the first key and worked with the 1st block 
 know to get iv =pt ^ D(ct1) 
 and we got ct1 and key from the first step so now we can get iv and it worked 
-![Alt text][https://github.com/beboo07/CTF/blob/main/ieee/CBC/flag.png?raw=true]
+![image][https://github.com/beboo07/CTF/blob/main/ieee/CBC/flag.png?raw=true]
