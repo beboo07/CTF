@@ -1,4 +1,4 @@
-This challenge was goal was to get the right iv that was used to encrypt this data u have a known plaintext with 32 bytes len and partial key with the last 4 bytes not known and partial ciphertext 
+This challenge goal was to get the right iv that was used to encrypt this data u have a known plaintext with 32 bytes len and partial key with the last 4 bytes not known and partial ciphertext 
 
 first u will need to know what does AES-CBC work so here is an image that explain how does it work 
 ![image](https://github.com/beboo07/CTF/assets/103918753/1f5dce9c-12dd-4e00-8bbe-89551e484598)
